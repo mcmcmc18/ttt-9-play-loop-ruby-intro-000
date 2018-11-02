@@ -39,8 +39,8 @@ end
 
 def play
 counter = 0 
-until counter == 8
-turn(board)
+while counter < 9
 counter += 1
+turn(board)
 end
 end
