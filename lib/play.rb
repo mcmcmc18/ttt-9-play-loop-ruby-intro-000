@@ -39,7 +39,7 @@ end
 
 counter = 0 
 def play
-while counter < 9 
+until counter == 9 
 turn(board)
 counter += 1 
 end
