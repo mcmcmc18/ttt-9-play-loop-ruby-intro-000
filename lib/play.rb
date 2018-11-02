@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 
-def play
+def play(board)
 counter = 0 
 while counter < 9
 counter += 1
