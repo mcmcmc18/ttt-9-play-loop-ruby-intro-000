@@ -41,6 +41,6 @@ counter = 0
 def play
 until counter == 8 
 turn(board)
-counter += 1 
+counter = counter + 1
 end
 end
